@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --hmr --port 4300",
     "build": "ng build",
     "watch": "ng build --watch --configuration development"
   },
@@ -17,6 +17,9 @@
     "@angular/platform-browser": "~12.0.3",
     "@angular/platform-browser-dynamic": "~12.0.3",
     "@angular/router": "~12.0.3",
+    "@kin-sdk/client": "^0.7.0",
+    "assert": "^2.0.0",
+    "buffer-es6": "^4.9.3",
     "rxjs": "~6.6.0",
     "tslib": "^2.1.0",
     "zone.js": "~0.11.4"
